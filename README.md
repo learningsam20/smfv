@@ -3,12 +3,12 @@ Smart MainFrame Visualizer (SMFV)
 
 This repository consists of brief intro and description of how the mainframe analyzer works
 
-## Introduction: 
+## Introduction
 
 SMF holds wealth of info for various mainframe subsystems, including SDSF. Users cannot access this info readily. SMFV attempts to analyze & visualize a part of SDSF job info. It analyzes DA job queue at pre-defined interval and shows tableau dashboard with top resource consuming jobs/users, frequently executed jobs, class & priority wise job distribution, execution trend & more. While this is a representative analysis, it could be extended to additional SDSF attributes and SMF data.
 
 
-##Installation Instructions
+## Installation Instructions
 
 - Copy necessary files from git clone https://github.com/learningsam20/smfv
 - Copy SDSFJCL in a mainframe JCL PDS and change/add params if any to the job card
