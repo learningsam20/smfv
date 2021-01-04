@@ -31,9 +31,9 @@ while True:
         print(js)
         time.sleep(5)
 
-#gcpdemo-79cdf:us-central1:mtmdb@34.66.249.142
+#gcpdemo-79cdf:us-central1:mtmdb
 # change the database connection info as per newly allocated database
-mydb = mysql.connector.connect(host="34.66.249.142",user="mtuser",password="infy@123",database="mtmlogdb",auth_plugin='mysql_native_password')
+mydb = mysql.connector.connect(host="hostname",user="user",password="password",database="mtmlogdb",auth_plugin='mysql_native_password')
 mycursor = mydb.cursor()
 sql = "INSERT INTO joblog (jobid,jobname,stepname,procname,jobowner,jobclass,\
 jobpos,jobdp,jobreal,jobsio,jobcpupercent,jobexcp,jobcputime,jobsr,jobparsedts) \
